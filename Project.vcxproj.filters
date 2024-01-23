@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Truck">
+      <UniqueIdentifier>{06d44d8d-0850-472a-9717-8ec33971544d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cargo">
+      <UniqueIdentifier>{fbdff19f-d962-45da-bd26-22629b72c2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{4a5cf282-6c06-4397-8fb5-e8be56cc2ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{c8a73f3a-d80b-4f5f-8c1f-b2330b856c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Company">
+      <UniqueIdentifier>{d95485c3-0855-4ab4-bbe8-bfd221a9bf94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{20e4ff1d-b6ce-4a30-9777-94789f06aa28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalTruck.cpp">
+      <Filter>Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="VIPTruck.cpp">
+      <Filter>Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialTruck.cpp">
+      <Filter>Truck</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PreparationEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PromoteEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargo.cpp">
+      <Filter>Cargo</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Company.cpp">
+      <Filter>Company</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Truck.h">
+      <Filter>Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalTruck.h">
+      <Filter>Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="VIPTruck.h">
+      <Filter>Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialTruck.h">
+      <Filter>Truck</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PreparationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PromoteEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargo.h">
+      <Filter>Cargo</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeP.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Company</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
